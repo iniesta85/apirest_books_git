@@ -6,6 +6,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
+		<!-- comentario de prueba-->
 	</parent>
 	<groupId>com.company.books.backend</groupId>
 	<artifactId>apirest-books</artifactId>
