@@ -44,7 +44,7 @@ public class CategoriaRestController {
 	}
 	
 	@PutMapping("/categorias/update/{id}")
-	public ResponseEntity<CategoryResponseRest> Update(@RequestBody Categoria categoria, @PathVariable Long id) {
+	public ResponseEntity<CategoryResponseRest> update(@RequestBody Categoria categoria, @PathVariable Long id) {
 		
 		ResponseEntity<CategoryResponseRest> categoryResponseRest = categoryService.updateCategory(categoria,id);
 		return categoryResponseRest;

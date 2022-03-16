@@ -16,6 +16,18 @@ public class Categoria implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
+	
+	public Categoria() {
+		super();
+	}
+	
+	public Categoria(Long id, String name, String description) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+	}
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
